@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Herr+Von+Muellerhoff&family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #F8FAFC;
+  color: #0F172A;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background:
+    radial-gradient(
+      circle at 80% 15%,
+      rgba(96, 165, 250, 0.18),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 15% 75%,
+      rgba(147, 197, 253, 0.14),
+      transparent 35%
+    ),
+    #F8FAFC;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+  background: #BFDBFE;
+  color: #0F172A;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #60A5FA;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}
